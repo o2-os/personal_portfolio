@@ -1,0 +1,11 @@
+.container{
+    margin: 0 auto;
+    background-color: #3800ff78;
+    width: 50%;
+}
+
+.headshotImg{
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+}
