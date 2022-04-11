@@ -1,11 +1,27 @@
 .container{
     margin: 0 auto;
-    background-color: #3800ff78;
+    /* background-color: #3800ff78; */
     width: 50%;
+    font-family: 'Mukta', sans-serif;
 }
 
 .headshotImg{
     height: 300px;
-    width: 200px;
+    width: auto;
     margin: 0 auto;
+    border-radius: 15px;
+}
+
+.contactMe{
+    /* border: 1px solid rgb(121, 121, 121); */
+    border-radius: 10px;
+    background-color: #f7e8e8d6;
+}
+
+.technologies{
+    padding: 50px;
+}
+
+.header{
+    padding:25px;
 }
