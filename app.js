@@ -51,6 +51,13 @@ function PageTransitions () {
             element.classList.add('active');
         }
     })
+
+    // toggle theme
+    const themeBtn = document.querySelectorAll('.theme-btn');
+    themeBtn.addEventListener('click',() =>{
+        let element = document.body;
+        element.classList.toggle('light-mode')
+    })
 };
 
 PageTransitions();
