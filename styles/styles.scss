@@ -45,6 +45,7 @@ header{
     height: 100vh;
     color: var(--color-white);
     overflow: hidden;
+    
 }
 
 // section styling
@@ -687,3 +688,5 @@ section{
         }
     }
 }
+
+@import './media';
