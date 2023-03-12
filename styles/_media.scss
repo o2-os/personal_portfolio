@@ -34,7 +34,70 @@
         margin: 0 auto;
         width: 90%;
     }
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size:2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
     
+    .contact-content-container{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        .right-contact{
+            margin-left:0;
+            margin-top: 2.5rem;
+        }
+        .left-contact{
+            .contact-icon{
+                justify-content: center;
+            }
+        }
+    }
+
+    .contact-content-container .right-contact .input-control-2{
+        flex-direction: column;
+    }
+    .contact-content-container .right-contact .input-control-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
 
     .controls{
         top: auto;

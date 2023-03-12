@@ -40,6 +40,7 @@ header {
   height: 100vh;
   color: var(--color-white);
   overflow: hidden;
+  min-height: 100vh;
 }
 
 section {
@@ -84,16 +85,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -313,45 +305,7 @@ section {
 .about-stats .progress-bars .progress-bar .progress-title {
   text-transform: uppercase;
   font-weight: 500;
-}
-.about-stats .progress-bars .progress-bar .progress-container {
-  display: flex;
-  align-items: center;
-}
-.about-stats .progress-bars .progress-bar .progress-container .prog-text {
-  color: var(--color-grey-2);
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress {
-  width: 100%;
-  height: 0.45rem;
-  background-color: var(--color-grey-4);
-  position: relative;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background-color: var(--color-secondary);
-  transition: all 0.4s ease-in-out;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .html {
-  width: 90%;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .css {
-  width: 60%;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .javascript {
-  width: 25%;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .react {
-  width: 25%;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .python {
-  width: 25%;
-}
-.about-stats .progress-bars .progress-bar .progress-container .progress .csharp {
-  width: 25%;
+  text-align: center;
 }
 
 .stat-title {
@@ -688,6 +642,57 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  .about-container .right-about {
+    padding-top: 2.5rem;
+    grid-template-columns: 1fr;
+  }
+  .about-container .left-about {
+    padding-right: 0;
+  }
+  .about-container .left-about p {
+    padding-left: 0;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .section {
+    padding: 2rem 2.5rem !important;
+  }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
+  }
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .contact-content-container .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-container .left-contact .contact-icon {
+    justify-content: center;
+  }
+  .contact-content-container .right-contact .input-control-2 {
+    flex-direction: column;
+  }
+  .contact-content-container .right-contact .input-control-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
   }
   .controls {
     top: auto;
