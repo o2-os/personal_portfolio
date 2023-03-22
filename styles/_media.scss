@@ -1,61 +1,16 @@
-@media screen and (max-width: 600px){
-
-    .about-container{
-        grid-template-columns: 1fr;
-        .right-about{
-            padding-top: 2.5rem;
-            grid-template-columns: 1fr;
-        }
-        .left-about{
-            padding-right: 0;
-            p{
-                padding-left: 0;
-            }
-        }
-    }
-
-    .timeline{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-
-    .section{
-        padding: 2rem 2.5rem !important;
-    }
-
-    .main-title{
-        h2{
-            font-size: 2rem;
-            span{
-                font-size:2.5rem;
-            }
-            .bg-text{
-                font-size: 3rem;
-            }
-        }
-    }
-
-    .portfolios{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-    
-    
-}
-
-
-
 @media screen and (max-width: 1432px){
-
     header{
-        padding: 0 !important
+        padding: 0 !important;
+        
     }
-
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 50%;
+        height: 90%;
+    }
     .section{
         padding: 7rem 11rem;
     }
-
     .contact-content-container{
         flex-direction: column;
         grid-template-columns: 1fr;
@@ -69,7 +24,6 @@
             }
         }
     }
-
     .contact-content-container .right-contact .input-control-2{
         flex-direction: column;
     }
@@ -86,11 +40,9 @@
             padding-top: 2.5rem;
         }
     }
-
     .portfolios{
         grid-template-columns: 1fr 1fr;
     }
-
     .main-title{
         h2{
             font-size: 4rem;
@@ -108,30 +60,25 @@
     .section{
         padding: 7rem 6rem;
     }
-
     header{
         padding: 0;
     }
     header .right-header{
         padding: 0 !important;
     }
-
     .theme-btn{
         width: 50px;
         height: 50px;
     }
-
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-
     .left-header{
         .h-shape{
             display:none;
         }
     }
-
     .right-header{
         grid-row: 1;
         width: 90%;
@@ -141,11 +88,7 @@
             font-size: 2.5rem;
         }
     }
-    .header-content .left-header .image{
-        margin: 0 auto;
-        width: 90%;
-    }
-
+    
     .controls{
         top: auto;
         bottom: 0;
@@ -165,7 +108,6 @@
     .section{
         padding: 7rem 3rem;
     }
-
     .main-title{
         h2{
             font-size: 3rem;
@@ -178,3 +120,44 @@
         }
     }
 }
+
+@media screen and (max-width: 600px){
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size:2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    
+    
+}
+
