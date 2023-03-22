@@ -3,11 +3,7 @@
         padding: 0 !important;
         
     }
-    .header-content .left-header .image{
-        margin: 0 auto;
-        width: 50%;
-        height: 90%;
-    }
+    
     .section{
         padding: 7rem 11rem;
     }
@@ -40,6 +36,7 @@
             padding-top: 2.5rem;
         }
     }
+    
     .portfolios{
         grid-template-columns: 1fr 1fr;
     }
@@ -62,6 +59,11 @@
     }
     header{
         padding: 0;
+    }
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 50%;
+        height: 90%;
     }
     header .right-header{
         padding: 0 !important;
