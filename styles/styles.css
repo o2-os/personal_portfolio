@@ -417,6 +417,8 @@ section {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: var(--color-white);
+  text-align: center;
+  padding: 0 1.2rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
