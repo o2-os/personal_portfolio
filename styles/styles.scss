@@ -251,13 +251,14 @@ section{
 // about me
 
 .about-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
     padding-top: 3.5rem;
     padding-bottom: 5rem;
     //left-side about content
     .left-about{
-        padding-right: 5rem;
+        // padding-right: 5rem;
+        text-align: center;
         p{
             line-height: 2rem;
             padding: 1rem;
