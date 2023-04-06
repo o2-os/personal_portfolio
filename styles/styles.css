@@ -231,17 +231,16 @@ section {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
-.about-container .left-about {
-  text-align: center;
-}
 .about-container .left-about p {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: left;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .about-container .right-about {
   display: grid;

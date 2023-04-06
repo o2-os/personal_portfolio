@@ -260,16 +260,17 @@ section{
     //left-side about content
     .left-about{
         // padding-right: 5rem;
-        text-align: center;
+        // text-align: center;
         p{
             line-height: 2rem;
             padding: 1rem;
             color: var(--color-grey-1);
-
+            text-align: left;
         }
         h4{
             font-size: 2rem;
             text-transform: uppercase;
+            text-align: center;
         }
     }
     // right-side about content
