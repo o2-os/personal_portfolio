@@ -549,6 +549,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  justify-content: center;
 }
 
 .main-btn {
